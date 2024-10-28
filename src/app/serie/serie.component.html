@@ -1,0 +1,34 @@
+<div style="display: flex; align-items: center; background-color: #58b3c2; padding: 10px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/5554/5554353.png" alt="Icono TV" style="width: 30px; height: auto; margin-right: 10px;">
+    <span style="font-size: 18px; color: white; font-weight: bold;">TV Series</span>
+</div>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm">
+      <table id="tablaSeries" class="table table-striped mt-3">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Channel</th>
+            <th scope="col">Seasons</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Las filas se agregarán aquí -->
+        </tbody>
+      </table>
+      <p id="average"></p>
+    </div>
+    <div class="col-sm">
+      <div class="card mt-3" style="width: 18rem; visibility: hidden;" id="card">
+          <img class="card-img-top" src="https://i.imgur.com/EvKe48G.jpeg" alt="Card image cap" id="cardSerieImage" referrerpolicy="no-referrer">
+          <div class="card-body">
+              <h5 class="card-title" id="cardSerieTitle"></h5>
+              <p class="card-text" id="cardSerieDesc"></p>
+              <a href="#" class="card-link" id="cardSerieLink" target="_blank"></a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
